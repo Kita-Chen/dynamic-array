@@ -1,2 +1,1 @@
 # dynamic-array
-# dynamic-array
