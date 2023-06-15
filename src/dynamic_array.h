@@ -39,9 +39,4 @@ void extend(dynamic_array_t* self, void** elements, int num_of_elements) {
     push(self, *elements);
     elements++;
   }
-  
-  // while (*elements) {
-  //   push(self, *elements);
-  //   elements++;
-  // }
 }

@@ -16,13 +16,6 @@ int main() {
     push(buf, &small_buf);
   }
   char c = '\0';
-  /*if((buf)->size >= (buf)->capacity) { \
-    (buf)->capacity *= 2; \
-    (buf)->arr = realloc((buf)->arr, (buf)->cast_size * (buf)->capacity); \
-  } \
-  byte_t* c_p = (byte_t*)(&c); \
-  memcpy((byte_t*)(buf)->arr + (buf)->cast_size * (buf)->size, c_p, (buf)->cast_size); \
-  */
   push(buf, &c);
   printf("%s", (char*)buf->arr);
 
